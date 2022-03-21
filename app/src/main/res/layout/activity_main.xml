@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sign" />
+    <TextView
+        android:paddingTop="16dp"
+        android:textColor="	#4682b4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/user"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:textSize="25dp"
+        android:hint="Enter your Name here"/>
+    <TextView
+        android:paddingTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Age"
+        android:textColor="	#4682b4"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/age"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:textSize="25dp"
+        android:hint="Enter your age here" />
+    <TextView
+        android:paddingTop="16dp"
+        android:textColor="	#4682b4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Mobile Number"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/mob"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:textSize="25dp"
+        android:hint="Enter your Number here"/>
+    <TextView
+        android:paddingTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Location"
+        android:textColor="	#4682b4"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/loc"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:textSize="25dp"
+        android:hint="Enter your Location here" />
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="ENTER"
+        android:backgroundTint="#4682b4"/>
+
+
+</LinearLayout>
